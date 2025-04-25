@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyob Tesfaye | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">ET</div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Eyob Tesfaye</h1>
+                    <div class="hero-subtitle">
+                        I'm a <span class="typewriter"></span>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#portfolio" class="btn primary-btn">View My Work</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="/placeholder.svg?height=400&width=400" alt="Eyob Tesfaye">
+                    </div>
+                    <div class="about-text">
+                        <h3>Hello, I'm Eyob Tesfaye</h3>
+                        <p>I'm a passionate creative professional with expertise in video editing, digital content creation, web development, and graphic design.</p>
+                        <p>My approach combines technical skills with creative vision to produce compelling and effective solutions for my clients.</p>
+                        <div class="about-info">
+                            <div class="info-item">
+                                <span>Name:</span>
+                                <p>Eyob Tesfaye</p>
+                            </div>
+                            <div class="info-item">
+                                <span>Email:</span>
+                                <p><a href="mailto:contact@eyobtesfaye.com">contact@eyobtesfaye.com</a></p>
+                            </div>
+                            <div class="info-item">
+                                <span>Based in:</span>
+                                <p>Addis Ababa, Ethiopia</p>
+                            </div>
+                            <div class="info-item">
+                                <span>Freelance:</span>
+                                <p>Available</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My Services</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>Video Editing</h3>
+                        <p>Professional video editing services including color grading, motion graphics, transitions, and sound design.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <h3>Digital Content</h3>
+                        <p>Creation of engaging digital content for social media, websites, and marketing campaigns.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Custom website development with responsive design, modern UI/UX principles, and optimized performance.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>Graphic Design</h3>
+                        <p>Creative graphic design services including logos, branding materials, illustrations, and print designs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My Portfolio</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="video">Video</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="video">
+                        <div class="portfolio-img">
+                            <img src="/placeholder.svg?height=600&width=800" alt="Video Project 1">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Commercial Video</h3>
+                                <p>Video Editing</p>
+                                <a href="#" class="portfolio-link" data-id="1"><i class="fas fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat portfolio items here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Contact Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Location</h3>
+                                <p>Addis Ababa, Ethiopia</p>
+                            </div>
+                        </div>
+                        <!-- Repeat contact items here -->
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn primary-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Eyob Tesfaye. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modal -->
+    <div class="portfolio-modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <h2 class="modal-title">Project Title</h2>
+                <div class="modal-image">
+                    <img src="/placeholder.svg?height=800&width=1200" alt="Project Image">
+                </div>
+                <div class="modal-info">
+                    <div class="modal-description">
+                        <h3>Project Description</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="modal-details">
+                        <div class="detail-item">
+                            <h4>Client:</h4>
+                            <p>Client Name</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Date:</h4>
+                            <p>January 2024</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4>Category:</h4>
+                            <p>Web Development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
